@@ -6,7 +6,7 @@
 #include <ros/ros.h>
 #include <boost/filesystem.hpp>
 
-static const std::string PLANNING_GROUP_ARM = "panda_arm";
+static const std::string PLANNING_GROUP_ARM = "arm";
 static const std::string APP_DIRECTORY_NAME = ".panda_simulation";
 
 moveit_msgs::CollisionObject extractObstacleFromJson(Json::Value &root, std::string name)
